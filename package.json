@@ -1,11 +1,8 @@
 {
-  "name": "mui",
   "version": "1.0.0",
+  "license": "ISC",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Andry Bagus Dharmawan",
-  "license": "ISC"
+  "repository": "andrydharmawan/mui",
+  "name": "@andrydharmawan/ajc",
+  "author": "Andry Bagus Dharmawan"
 }
