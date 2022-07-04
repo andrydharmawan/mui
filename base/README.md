@@ -1,4 +1,4 @@
-# @mui/base
+# @andrydharmawan/ajc/base
 
 This package hosts unstyled React components that can be used for creating custom design systems.
 
@@ -8,10 +8,10 @@ Install the package in your project directory with:
 
 ```sh
 // with npm
-npm install @mui/base
+npm install @andrydharmawan/ajc/base
 
 // with yarn
-yarn add @mui/base
+yarn add @andrydharmawan/ajc/base
 ```
 
 ## Documentation
