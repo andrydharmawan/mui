@@ -1,4 +1,4 @@
-import { OverrideProps } from '@mui/types';
+import { OverrideProps } from '@andrydharmawan/ajc/types';
 import React from 'react';
 import UseButtonProps from './UseButtonProps';
 export interface ButtonUnstyledActions {

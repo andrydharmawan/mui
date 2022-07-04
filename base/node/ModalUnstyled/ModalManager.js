@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.ariaHidden = ariaHidden;
 exports.default = void 0;
 
-var _utils = require("@mui/utils");
+var _utils = require("@andrydharmawan/ajc/utils");
 
 // Is a vertical scrollbar displayed?
 function isOverflowing(container) {

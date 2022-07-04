@@ -3,7 +3,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { unstable_capitalize as capitalize, usePreviousProps } from '@mui/utils';
+import { unstable_capitalize as capitalize, usePreviousProps } from '@andrydharmawan/ajc/utils';
 import isHostComponent from '../utils/isHostComponent';
 import composeClasses from '../composeClasses';
 import { getBadgeUtilityClass } from './badgeUnstyledClasses';

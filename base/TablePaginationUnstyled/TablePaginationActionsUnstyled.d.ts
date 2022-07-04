@@ -1,4 +1,4 @@
-import { OverridableComponent } from '@mui/types';
+import { OverridableComponent } from '@andrydharmawan/ajc/types';
 import { TablePaginationActionsUnstyledTypeMap } from './TablePaginationActionsUnstyledProps';
 /**
  * @ignore - internal component.

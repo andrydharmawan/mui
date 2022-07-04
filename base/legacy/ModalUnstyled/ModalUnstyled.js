@@ -3,7 +3,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { elementAcceptingRef, HTMLElementType, unstable_ownerDocument as ownerDocument, unstable_useForkRef as useForkRef, unstable_createChainedFunction as createChainedFunction, unstable_useEventCallback as useEventCallback } from '@mui/utils';
+import { elementAcceptingRef, HTMLElementType, unstable_ownerDocument as ownerDocument, unstable_useForkRef as useForkRef, unstable_createChainedFunction as createChainedFunction, unstable_useEventCallback as useEventCallback } from '@andrydharmawan/ajc/utils';
 import composeClasses from '../composeClasses';
 import isHostComponent from '../utils/isHostComponent';
 import Portal from '../Portal';

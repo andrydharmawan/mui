@@ -1,6 +1,6 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutProperties";
-import { chainPropTypes, HTMLElementType, refType, unstable_ownerDocument as ownerDocument, unstable_useEnhancedEffect as useEnhancedEffect, unstable_useForkRef as useForkRef } from '@mui/utils';
+import { chainPropTypes, HTMLElementType, refType, unstable_ownerDocument as ownerDocument, unstable_useEnhancedEffect as useEnhancedEffect, unstable_useForkRef as useForkRef } from '@andrydharmawan/ajc/utils';
 import { createPopper } from '@popperjs/core';
 import PropTypes from 'prop-types';
 import * as React from 'react';

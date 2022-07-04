@@ -4,7 +4,7 @@ const _excluded = ["className", "component", "components", "componentsProps", "c
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { unstable_useForkRef as useForkRef } from '@mui/utils';
+import { unstable_useForkRef as useForkRef } from '@andrydharmawan/ajc/utils';
 import composeClasses from '../composeClasses';
 import { getButtonUnstyledUtilityClass } from './buttonUnstyledClasses';
 import useButton from './useButton';

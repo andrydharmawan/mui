@@ -1,6 +1,6 @@
 import _slicedToArray from "@babel/runtime/helpers/esm/slicedToArray";
 import * as React from 'react';
-import { unstable_useControlled as useControlled, unstable_useId as useId } from '@mui/utils';
+import { unstable_useControlled as useControlled, unstable_useId as useId } from '@andrydharmawan/ajc/utils';
 
 var useTabs = function useTabs(props) {
   var valueProp = props.value,

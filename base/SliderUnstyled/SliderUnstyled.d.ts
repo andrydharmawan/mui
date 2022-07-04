@@ -1,4 +1,4 @@
-import { OverridableComponent, OverridableTypeMap, OverrideProps } from '@mui/types';
+import { OverridableComponent, OverridableTypeMap, OverrideProps } from '@andrydharmawan/ajc/types';
 import { SliderUnstyledClasses } from './sliderUnstyledClasses';
 import SliderValueLabelUnstyled from './SliderValueLabelUnstyled';
 

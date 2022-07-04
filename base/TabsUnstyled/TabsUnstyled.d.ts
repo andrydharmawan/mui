@@ -1,4 +1,4 @@
-import { OverridableComponent } from '@mui/types';
+import { OverridableComponent } from '@andrydharmawan/ajc/types';
 import { TabsUnstyledTypeMap } from './TabsUnstyledProps';
 /**
  *

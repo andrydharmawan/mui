@@ -11,7 +11,7 @@ var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends")
 
 var React = _interopRequireWildcard(require("react"));
 
-var _utils = require("@mui/utils");
+var _utils = require("@andrydharmawan/ajc/utils");
 
 var _reactIs = require("react-is");
 

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { OverrideProps } from '@mui/types';
+import { OverrideProps } from '@andrydharmawan/ajc/types';
 import { TablePaginationUnstyledClasses } from './tablePaginationUnstyledClasses';
 export interface LabelDisplayedRowsArgs {
     from: number;

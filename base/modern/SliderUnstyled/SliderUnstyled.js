@@ -4,7 +4,7 @@ const _excluded = ["aria-label", "aria-labelledby", "aria-valuetext", "className
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { chainPropTypes, unstable_useIsFocusVisible as useIsFocusVisible, unstable_useEnhancedEffect as useEnhancedEffect, unstable_ownerDocument as ownerDocument, unstable_useEventCallback as useEventCallback, unstable_useForkRef as useForkRef, unstable_useControlled as useControlled, visuallyHidden } from '@mui/utils';
+import { chainPropTypes, unstable_useIsFocusVisible as useIsFocusVisible, unstable_useEnhancedEffect as useEnhancedEffect, unstable_ownerDocument as ownerDocument, unstable_useEventCallback as useEventCallback, unstable_useForkRef as useForkRef, unstable_useControlled as useControlled, visuallyHidden } from '@andrydharmawan/ajc/utils';
 import isHostComponent from '../utils/isHostComponent';
 import composeClasses from '../composeClasses';
 import { getSliderUtilityClass } from './sliderUnstyledClasses';

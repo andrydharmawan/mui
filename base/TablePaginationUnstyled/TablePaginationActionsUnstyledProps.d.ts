@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { OverrideProps } from '@mui/types';
+import { OverrideProps } from '@andrydharmawan/ajc/types';
 export interface TablePaginationActionsUnstyledComponentsPropsOverrides {
 }
 interface TablePaginationActionsUnstyledOwnProps extends React.HTMLAttributes<HTMLDivElement> {

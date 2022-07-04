@@ -17,7 +17,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _clsx = _interopRequireDefault(require("clsx"));
 
-var _utils = require("@mui/utils");
+var _utils = require("@andrydharmawan/ajc/utils");
 
 var _isHostComponent = _interopRequireDefault(require("../utils/isHostComponent"));
 

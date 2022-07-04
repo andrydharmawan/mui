@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { OverridableComponent, OverridableTypeMap, OverrideProps } from '@mui/types';
+import { OverridableComponent, OverridableTypeMap, OverrideProps } from '@andrydharmawan/ajc/types';
 import { BackdropUnstyledProps } from '../BackdropUnstyled';
 import { PortalProps } from '../Portal';
 import { ModalUnstyledClasses } from './modalUnstyledClasses';

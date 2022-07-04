@@ -1,4 +1,4 @@
-import { OverrideProps } from '@mui/types';
+import { OverrideProps } from '@andrydharmawan/ajc/types';
 import * as React from 'react';
 export declare type NativeFormControlElement = HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
 export interface FormControlUnstyledComponentsPropsOverrides {

@@ -1,5 +1,5 @@
 {
-  "name": "@mui/base",
+  "name": "@andrydharmawan/ajc/base",
   "version": "5.0.0-alpha.59",
   "private": false,
   "author": "MUI Team",
@@ -39,7 +39,7 @@
   "dependencies": {
     "@babel/runtime": "^7.16.3",
     "@emotion/is-prop-valid": "^1.1.1",
-    "@mui/utils": "^5.2.3",
+    "@andrydharmawan/ajc/utils": "^5.2.3",
     "@popperjs/core": "^2.4.4",
     "clsx": "^1.1.1",
     "prop-types": "^15.7.2",

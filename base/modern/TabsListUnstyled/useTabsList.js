@@ -1,6 +1,6 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import { unstable_ownerDocument as ownerDocument, unstable_useForkRef as useForkRef } from '@mui/utils';
+import { unstable_ownerDocument as ownerDocument, unstable_useForkRef as useForkRef } from '@andrydharmawan/ajc/utils';
 import { isFragment } from 'react-is';
 import { useTabContext } from '../TabsUnstyled';
 import extractEventHandlers from '../utils/extractEventHandlers';

@@ -1,4 +1,4 @@
-import { OverridableComponent } from '@mui/types';
+import { OverridableComponent } from '@andrydharmawan/ajc/types';
 import { TablePaginationUnstyledTypeMap } from './TablePaginationUnstyledProps';
 /**
  * A pagination for tables.

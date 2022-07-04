@@ -8,7 +8,7 @@ _Dec 6, 2021_
 
 A big thanks to the 25 contributors who made this release possible. Here are some highlights ✨:
 
-- ✨ We have introduced a new unstyled component in `@mui/base`: `TablePagination` (#29759) @mnajdova
+- ✨ We have introduced a new unstyled component in `@andrydharmawan/ajc/base`: `TablePagination` (#29759) @mnajdova
 
   <a href="https://mui.com/components/tables/#unstyled-table"><img width="800" alt="unstyled table" src="https://user-images.githubusercontent.com/4512430/144862194-584356ef-7d9d-462c-a631-186a7e716193.png"></a>
 
@@ -18,7 +18,7 @@ A big thanks to the 25 contributors who made this release possible. Here are som
 
 - And many more 🐛 bug fixes and 📚 improvements.
 
-### `@mui/material@5.2.3`
+### `@andrydharmawan/ajc/material@5.2.3`
 
 - &#8203;<!-- 33 -->[Accordion] Add a test for handling `square` prop (#29972) @daniel-sachs
 - &#8203;<!-- 32 -->[Alert] Fix `square` Paper prop (#30027) @ZeeshanTamboli
@@ -27,31 +27,31 @@ A big thanks to the 25 contributors who made this release possible. Here are som
 - &#8203;<!-- 13 -->[Grid] Fix generated classes for `spacing` prop when the value is object (#29880) @jayeclark
 - &#8203;<!-- 10 -->[Select] Should not crash when an empty array is passed with `multiple` enabled (#29957) @Domino987
 
-### `@mui/system@5.2.3`
+### `@andrydharmawan/ajc/system@5.2.3`
 
 - &#8203;<!-- 06 -->[system] Fix return type of `createBox` (#29989) @mnajdova
 - &#8203;<!-- 05 -->[system] Support boolean values in typescript for the `sx` prop when used as array (#29911) @tasugi
 
-### `@mui/utils@5.2.3`
+### `@andrydharmawan/ajc/utils@5.2.3`
 
 - &#8203;<!-- 03 -->[utils] Add typings for `@mui-material/styles/cssUtils` (#29621) @Semigradsky
 
-### `@mui/icons-material@5.2.1`
+### `@andrydharmawan/ajc/icons-material@5.2.1`
 
 - &#8203;<!-- 12 -->[icons] Consolidate ignored icons into one list (#29843) @chao813
 
-### `@mui/base@5.0.0-alpha.59`
+### `@andrydharmawan/ajc/base@5.0.0-alpha.59`
 
 - &#8203;<!-- 30 -->[base] Fix missing ClickAwayListener barrel index export (#30000) @oliviertassinari
 - &#8203;<!-- 04 -->[TablePaginationUnstyled] Introduce new component (#29759) @mnajdova
 
-### `@mui/lab@5.0.0-alpha.59`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.59`
 
 - &#8203;<!-- 27 -->[DateRangePicker] Fix `DateRangePickerDayProps` interface (#29067) @jonathanrtuck
 - &#8203;<!-- 10 -->[Pickers] Remove propagation of custom props to the `MonthPicker` component's DOM element (#30021) @ZeeshanTamboli
 - &#8203;<!-- 08 -->[StaticDatePicker] Add className and slot to PickerStaticWrapper (#29619) @kkorach
 
-### `@mui/joy@5.0.0-alpha.5`
+### `@andrydharmawan/ajc/joy@5.0.0-alpha.5`
 
 - &#8203;<!-- 11 -->[Joy] Theme setup (#29846) @siriwatknp
 
@@ -59,7 +59,7 @@ A big thanks to the 25 contributors who made this release possible. Here are som
 
 - &#8203;<!-- 34 -->[docs] Fix link in TypeScript doc page (#30044) @genzyy
 - &#8203;<!-- 26 -->[docs] Remove the 'WIP' icon from the 'Group & Pivot' page title (#30077) @flaviendelangle
-- &#8203;<!-- 25 -->[docs] Add warning that `@mui/styled-engine-sc` does not work in SSR (#30026) @mnajdova
+- &#8203;<!-- 25 -->[docs] Add warning that `@andrydharmawan/ajc/styled-engine-sc` does not work in SSR (#30026) @mnajdova
 - &#8203;<!-- 24 -->[docs] Add section for CSS specificity in the migration guide (#30008) @hbjORbj
 - &#8203;<!-- 28 -->[docs] Clarify comment in migration doc (#30076) @hbjORbj
 - &#8203;<!-- 23 -->[docs] Sync translations with Crowdin (#30041) @l10nbot
@@ -92,33 +92,33 @@ _Nov 29, 2021_
 
 A big thanks to the 9 contributors who made this release possible. Here are some highlights ✨:
 
-- ♿️ Improved accessibility of `Snackbar` and `TextField` in `@mui/material` (#29782) (#29850) (#29852) @eps1lon.
+- ♿️ Improved accessibility of `Snackbar` and `TextField` in `@andrydharmawan/ajc/material` (#29782) (#29850) (#29852) @eps1lon.
 - 🎉 Added support for `sx` syntax inside `styled()` utility (#29833) @mnajdova.
-- 🎉 Added support for more options for `createCssVarsProvider` in `@mui/system` (#29845) (#29857) @hbjORbj.
+- 🎉 Added support for more options for `createCssVarsProvider` in `@andrydharmawan/ajc/system` (#29845) (#29857) @hbjORbj.
 - And many more 🐛 bug fixes and 📚 improvements.
 
-### `@mui/material@5.2.2`
+### `@andrydharmawan/ajc/material@5.2.2`
 
 - &#8203;<!-- 14 -->[MenuList] Add component prop (#29882) @Harshikerfuffle
 - &#8203;<!-- 13 -->[Snackbar] Interrupt auto-hide on keyboard interaction (#29852) @eps1lon
 - &#8203;<!-- 12 -->[Snackbar] Dismiss on Escape press (#29850) @eps1lon
 - &#8203;<!-- 06 -->[TextField] Associate accessible name and description by default (#29782) @eps1lon
 
-### `@mui/joy@5.0.0-alpha.4`
+### `@andrydharmawan/ajc/joy@5.0.0-alpha.4`
 
 - &#8203;<!-- 15 -->[Joy] Add `Button` - 1st iteration (#29464) @siriwatknp
 
-### `@mui/codemod@5.2.1`
+### `@andrydharmawan/ajc/codemod@5.2.1`
 
 - &#8203;<!-- 28 -->[codemod] Fix alias import for box-sx-prop (#29902) @siriwatknp
 
-### `@mui/system@5.2.2`
+### `@andrydharmawan/ajc/system@5.2.2`
 
 - &#8203;<!-- 11 -->[system] CSSVarsProvider cleans up `html[style]` when unmounting (#29946) @eps1lon
 - &#8203;<!-- 10 -->[system] Add support for `disableTransitionOnChange` in `createCssVarsProvider` (#29857) @hbjORbj
 - &#8203;<!-- 09 -->[system] Add support for `enableColorScheme` in `createCssVarsProvider` (#29845) @hbjORbj
 
-### `@mui/utils@5.2.2`
+### `@andrydharmawan/ajc/utils@5.2.2`
 
 - &#8203;<!-- 05 -->[useId] Trade random collisions for collisions on overflow (#29781) @eps1lon
 - &#8203;<!-- 04 -->[useIsFocusVisible] Convert to TypeScript (#29779) @eps1lon
@@ -185,7 +185,7 @@ A big thanks to the 18 contributors who made this release possible. Here are som
   With it, we're getting close to having 2000 icons in our set.
 - 🐛 Fixed bugs and improved the infrastructure and documentation 📚.
 
-### `@mui/material@5.2.0`
+### `@andrydharmawan/ajc/material@5.2.0`
 
 - [IconButton] Remove on hover effect when `disableRipple` is set (#29298) @adamfitzgibbon
 - [i18n] Add the amharic language (#29153) @NatiG100
@@ -195,31 +195,31 @@ A big thanks to the 18 contributors who made this release possible. Here are som
 - [useMediaQuery] Fix crash in Safari < 14 and IE 11 (#29776) @eps1lon
 - [useMediaQuery] Ensure no tearing in React 18 (#28491) @eps1lon
 
-### `@mui/codemod@5.2.0`
+### `@andrydharmawan/ajc/codemod@5.2.0`
 
 - [codemod] Fix `jss-to-styled` to support multiple withStyles (#29824) @siriwatknp
 
-### `@mui/icons-material@5.2.0`
+### `@andrydharmawan/ajc/icons-material@5.2.0`
 
 - [icons] Sync new Google Material Icons (#29818) @chao813
 - [icons] Sync recent Material Icons from Google (#29328) @michaldudak
 
-### `@mui/system@5.2.0`
+### `@andrydharmawan/ajc/system@5.2.0`
 
 - [Box] Fix `sx` prop runtime issue when used as function (#29830) @mnajdova
 - [system] Fix `sx` throw error when value is `null` or `undefined` (#29756) @siriwatknp
 - [system] Fix minor CssVars issues (#29747) @siriwatknp
 
-### `@mui/styled-engine@5.2.0`
+### `@andrydharmawan/ajc/styled-engine@5.2.0`
 
 - [styled-engine] Fix props inference in styled-engine (#29739) @Janpot
 
-### `@mui/base@5.0.0-alpha.56`
+### `@andrydharmawan/ajc/base@5.0.0-alpha.56`
 
 - [FormControlUnstyled] `focused` is always false unless explicitly set to `true` @mwilkins91
 - [TabsUnstyled] Introduce new component (#29597) @mnajdova
 
-### `@mui/lab@5.0.0-alpha.56`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.56`
 
 - [DatePicker][timepicker] Add missing component declarations (#29517) @longzheng
 - [Masonry] exports from root package (#29754) @abhinav-22-tech
@@ -231,7 +231,7 @@ A big thanks to the 18 contributors who made this release possible. Here are som
 - [blog] Polish the Benny Joo joins MUI post (#29697) @oliviertassinari
 - [CHANGELOG] Explain why we do breaking changes @oliviertassinari
 - [core] Update latest issue template for codesandbox CI (#29783) @eps1lon
-- [core] Ensure `@mui/core` is an alias for `@mui/base` (#29762) @eps1lon
+- [core] Ensure `@andrydharmawan/ajc/core` is an alias for `@andrydharmawan/ajc/base` (#29762) @eps1lon
 - [docs] Fix broken Next and Previous links (#29711) @scallaway
 - [docs] Add a note that ToggleButton exclusive does not enforce selection (#29812) @mmacu
 - [docs] Update the list of supported locales (#29831) @michaldudak
@@ -261,10 +261,10 @@ _Nov 16, 2021_
 
 A big thanks to the 15 contributors who made this release possible. Here are some highlights ✨:
 
-- 🛠 Renamed `@mui/core` to `@mui/base` (#29585) @michaldudak.
+- 🛠 Renamed `@andrydharmawan/ajc/core` to `@andrydharmawan/ajc/base` (#29585) @michaldudak.
 - And many more 🐛 bug fixes and 📚 improvements.
 
-### `@mui/material@5.1.1`
+### `@andrydharmawan/ajc/material@5.1.1`
 
 - &#8203;<!-- 34 -->[Breadcrumbs][divider] Replace decimal spacing values with integers and css calc (#29526) @anikcreative
 - &#8203;<!-- 10 -->[Select][nativeselect] Add `multiple` class (#29566) @aaronholla
@@ -273,22 +273,22 @@ A big thanks to the 15 contributors who made this release possible. Here are som
 - &#8203;<!-- 13 -->[l10n] Improved Dutch (nl-NL) locale (#29592) @flipvrijn
 - &#8203;<!-- 10 -->[Table] Improve pagination range, use "en dash" over "hyphen" (#29579) @narekmal
 
-### `@mui/base@5.0.0-alpha.55`
+### `@andrydharmawan/ajc/base@5.0.0-alpha.55`
 
 #### Breaking changes
 
 - &#8203;<!-- 27 -->[core] Rename mui/core to mui/base (#29585) @michaldudak
 
-  Based on the results of the [poll](https://twitter.com/michaldudak/status/1452630484706635779) and our internal discussions, we decided to rename the `@mui/core` package to `@mui/base`. The main rationale for this is the fact that we use the term "Core" to refer to the core components product family, the one that includes Material Design components, unstyled components, System utilities, etc. Therefore, @mui/core was effectively a subset of MUI Core. This was confusing.
+  Based on the results of the [poll](https://twitter.com/michaldudak/status/1452630484706635779) and our internal discussions, we decided to rename the `@andrydharmawan/ajc/core` package to `@andrydharmawan/ajc/base`. The main rationale for this is the fact that we use the term "Core" to refer to the core components product family, the one that includes Material Design components, unstyled components, System utilities, etc. Therefore, @andrydharmawan/ajc/core was effectively a subset of MUI Core. This was confusing.
 
   The new name better reflects the purpose of the package: it contains unstyled components, hooks, and utilities that serve as a **base** to build on.
 
   ```diff
-  -import { useSwitch } from '@mui/core/SwitchUnstyled';
-  +import { useSwitch } from '@mui/base/SwitchUnstyled';
+  -import { useSwitch } from '@andrydharmawan/ajc/core/SwitchUnstyled';
+  +import { useSwitch } from '@andrydharmawan/ajc/base/SwitchUnstyled';
   ```
 
-### `@mui/lab@5.0.0-alpha.55`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.55`
 
 - &#8203;<!-- 12 -->[LoadingButton] Text variant spacing fixed for both start and end (#29194) @joshua-lawrence
 - &#8203;<!-- 11 -->[Masonry] Check if container or child exists to prevent error (#29452) @hbjORbj
@@ -343,7 +343,7 @@ A big thanks to the 33 contributors who made this release possible. Here are som
 - 🛠 Add support for arrays in the `sx` prop (#29297) @siriwatknp
 - And many more 🐛 bug fixes and 📚 improvements.
 
-### `@mui/material@5.1.0`
+### `@andrydharmawan/ajc/material@5.1.0`
 
 - &#8203;<!-- 68 -->[Autocomplete] Fix `hiddenLabel` prop of `TextField variant={filled}` inside Autocomplete (#29234) @jatinsandilya
 - &#8203;<!-- 67 -->[Box] Support generateClassName and defaultClassName (#29347) @siriwatknp
@@ -362,23 +362,23 @@ A big thanks to the 33 contributors who made this release possible. Here are som
 - &#8203;<!-- 08 -->[Tooltip] Fix `className` not getting applied from PopperProps (#29023) @ZeeshanTamboli
 - &#8203;<!-- 07 -->[useRadioGroup] Convert to TypeScript (#29326) @eps1lon
 
-### `@mui/system@5.1.0`
+### `@andrydharmawan/ajc/system@5.1.0`
 
 - &#8203;<!-- 21 -->[system] Introduce `mode` to CssVarsProvider (#29418) @siriwatknp
 - &#8203;<!-- 20 -->[system] Improve breakpoints resolver function (#29300) @hbjORbj
 - &#8203;<!-- 19 -->[system] Add array support for `sx` prop (#29297) @siriwatknp
 
-### `@mui/codemod@5.1.0`
+### `@andrydharmawan/ajc/codemod@5.1.0`
 
 - &#8203;<!-- 64 -->[codemod] Add codemod parser flag (#29059) (#29229) @ElonVolo
 
-### `@mui/lab@5.0.0-alpha.54`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.54`
 
 - &#8203;<!-- 52 -->[DatePicker] Fix disabled/readOnly for view components (#28815) @adamfitzgibbon
 - &#8203;<!-- 24 -->[Masonry] Fix crash on unmount when using React 18 (#29358) @eps1lon
 - &#8203;<!-- 23 -->[Masonry] Improve height computation and detect changes in `children` (#29351) @hbjORbj
 
-### `@mui/joy@5.0.0-alpha.0`
+### `@andrydharmawan/ajc/joy@5.0.0-alpha.0`
 
 - &#8203;<!-- 28 -->[Joy] Update default theme (#29478) @siriwatknp
 - &#8203;<!-- 26 -->[Joy] Export CssVarsProvider with default theme (#29150) @siriwatknp
@@ -446,16 +446,16 @@ _Oct 27, 2021_
 
 A big thanks to the 4 contributors who made this release possible. Here are some highlights ✨:
 
-- 🔧 Fix reported TypeScript issues on the `@mui/system` package because some packages were not released
+- 🔧 Fix reported TypeScript issues on the `@andrydharmawan/ajc/system` package because some packages were not released
 
-### `@mui/material@5.0.6`
+### `@andrydharmawan/ajc/material@5.0.6`
 
 - &#8203;<!-- 4 -->[Autocomplete] Fix `clearOnBlur` prop (#29208) @hbjORbj
 - &#8203;<!-- 2 -->[Rating] Remove z-index from decimal stars (#29295) @williamhaley
 
-### `@mui/system@5.0.6`
+### `@andrydharmawan/ajc/system@5.0.6`
 
-- &#8203;<!-- 5 -->[system] Fix various issues reported by using @mui/styled-engine-sc (#29035) @mnajdova
+- &#8203;<!-- 5 -->[system] Fix various issues reported by using @andrydharmawan/ajc/styled-engine-sc (#29035) @mnajdova
 - &#8203;<!-- 1 -->[system] Fix executing server-side Emotion component as function interpolation (#29290) @Andarist
 
 ### Docs
@@ -473,28 +473,28 @@ _Oct 26, 2021_
 A big thanks to the 19 contributors who made this release possible. Here are some highlights ✨:
 
 - 🔧 Implement `Masonry` using Flexbox by @hbjORbj.
-- 🧪 Add three components to `@mui/base` by @rebeccahongsf and @hbjORbj.
+- 🧪 Add three components to `@andrydharmawan/ajc/base` by @rebeccahongsf and @hbjORbj.
 
-### `@mui/codemod@5.0.5`
+### `@andrydharmawan/ajc/codemod@5.0.5`
 
 - &#8203;<!-- 38 -->[codemod] Support new package name in `link-underline-hover` transformer (#29214) @siriwatknp
 
-### `@mui/base@5.0.0-alpha.52`
+### `@andrydharmawan/ajc/base@5.0.0-alpha.52`
 
 - &#8203;<!-- 39 -->[ClickAwayListener] Move to the core package (#29186) @hbjORbj
 - &#8203;<!-- 13 -->[Popper] Move from mui-material to mui-base (#28923) @rebeccahongsf
 - &#8203;<!-- 04 -->[TextareaAutosize] Move to the core package (#29148) @hbjORbj
 
-### `@mui/lab@5.0.0-alpha.52`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.52`
 
 - &#8203;<!-- 16 -->[Masonry] Improve demo styles (#29218) @hbjORbj
 - &#8203;<!-- 15 -->[Masonry] Implement Masonry using Flexbox (#28059) @hbjORbj
 
-### `@mui/icons@5.0.5`
+### `@andrydharmawan/ajc/icons@5.0.5`
 
 - &#8203;<!-- 19 -->[icons] Add TipsAndUpdates icon (#29004) @hbjORbj
 
-### `@mui/material@5.0.5`
+### `@andrydharmawan/ajc/material@5.0.5`
 
 - &#8203;<!-- 40 -->[CardMedia] Apply specified `img` role instead of custom `image` role (#29172) @eps1lon
 - &#8203;<!-- 32 -->[CSSBaseline] Remove incorrect @deprecated annotation (#29069) @adamfitzgibbon
@@ -506,10 +506,10 @@ A big thanks to the 19 contributors who made this release possible. Here are som
 - &#8203;<!-- 07 -->[Tab] `iconPosition` prop added in Tab (#28764) @deepanshu2506
 - &#8203;<!-- 03 -->[Tooltip] Correct inconsistent prop precedence (#29132) @michaldudak
 
-### `@mui/system@5.0.5`
+### `@andrydharmawan/ajc/system@5.0.5`
 
 - &#8203;<!-- 11 -->[system] Allow function type for `sx` prop (#29198) @hbjORbj
-- &#8203;<!-- 10 -->[system] Fix various issues reported by using @mui/styled-engine-sc (#29035) @mnajdova
+- &#8203;<!-- 10 -->[system] Fix various issues reported by using @andrydharmawan/ajc/styled-engine-sc (#29035) @mnajdova
 - &#8203;<!-- 09 -->[system] Fix `colorScheme` conflict between application (#29139) @siriwatknp
 - &#8203;<!-- 08 -->[system] Add `unstable_createCssVarsProvider` api (#28965) @siriwatknp
 
@@ -551,10 +551,10 @@ _Oct 14, 2021_
 
 A big thanks to the 17 contributors who made this release possible. Here are some highlights ✨:
 
-- 🧪 Added `UnstyledInput` and `useInput` hook in the the first component in @mui/base package @michaldudak (#28053)
+- 🧪 Added `UnstyledInput` and `useInput` hook in the the first component in @andrydharmawan/ajc/base package @michaldudak (#28053)
 - 🐛 Fixed many bugs and improved the documentation 📚.
 
-### `@mui/material@5.0.4`
+### `@andrydharmawan/ajc/material@5.0.4`
 
 - &#8203;<!-- 31 -->[Chip] disable ripple only if onDelete is present. (#29034) @mottox2
 - &#8203;<!-- 06 -->[Pagination] Fix clicking on `...` triggering `onChange` with page value `null` (#28884) @ZeeshanTamboli
@@ -562,22 +562,22 @@ A big thanks to the 17 contributors who made this release possible. Here are som
 - &#8203;<!-- 03 -->[Tabs] Fix ":first-child is potentially unsafe" error (#28890) @hbjORbj
 - &#8203;<!-- 01 -->[transitions] Mark `children` as required where nullish `children` would crash at runtime (#29028) @eps1lon
 
-### `@mui/system@5.0.4`
+### `@andrydharmawan/ajc/system@5.0.4`
 
 - &#8203;<!-- 05 -->[system] Update typing for `style` function (#28744) @hbjORbj
 
-### `@mui/base@5.0.0-alpha.51`
+### `@andrydharmawan/ajc/base@5.0.0-alpha.51`
 
 - &#8203;<!-- 07 -->[InputUnstyled] Create unstyled input and useInput hook (#28053) @michaldudak
 
-### `@mui/lab@5.0.0-alpha.51`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.51`
 
 - &#8203;<!-- 25 -->[DesktopDatePicker] add Paper props to pass down to Paper component (#28865) @amen-souissi
 
 ### Docs
 
 - &#8203;<!-- 24 -->[docs] Add JSDoc to `theme.breakpoints` (#29039) @eps1lon
-- &#8203;<!-- 23 -->[docs] Rename broken package names in docs pointing to `@mui/material` (#29006) @visualfanatic
+- &#8203;<!-- 23 -->[docs] Rename broken package names in docs pointing to `@andrydharmawan/ajc/material` (#29006) @visualfanatic
 - &#8203;<!-- 22 -->[docs] Add troubleshooting guide for unexpected styles (#28907) @mnajdova
 - &#8203;<!-- 21 -->[docs] Fix issues reported by ahref (#28986) @mnajdova
 - &#8203;<!-- 20 -->[docs] Remove json translations for dropped locales (#28987) @mnajdova
@@ -613,38 +613,38 @@ _Oct 7, 2021_
 
 A big thanks to the 19 contributors who made this release possible. Here are some highlights ✨:
 
-- 🧪 Created the first component in @mui/material-next - our v6 prototype package.
+- 🧪 Created the first component in @andrydharmawan/ajc/material-next - our v6 prototype package.
 - 🐛 Fixed many bugs and improved the documentation 📚.
 
-### `@mui/material@5.0.3`
+### `@andrydharmawan/ajc/material@5.0.3`
 
 - &#8203;<!-- 10 -->[Stack] Add props & variants types in the theme (#28843) @mnajdova
 - &#8203;<!-- 12 -->[InputLabel] Fix condition for applying formControl overrides (#28707) @yevheniiminin
 - &#8203;<!-- 05 -->[Tooltip] Allow overriding internal components and their props (#28692) @michaldudak
 - &#8203;<!-- 04 -->[transitions] Fix `addEndListener` not being called with the DOM node (#28715) @eps1lon
 
-### `@mui/codemod@5.0.3`
+### `@andrydharmawan/ajc/codemod@5.0.3`
 
 - &#8203;<!-- 37 -->[codemod] Fix `optimal-imports` to support v4 and v5-alpha, beta (#28812) @siriwatknp
 
-### `@mui/system@5.0.3`
+### `@andrydharmawan/ajc/system@5.0.3`
 
 - &#8203;<!-- 09 -->[system] Add padding/margin-block/inline to spacing (#28813) @smmoosavi
 
-### `@mui/styled-engine-sc@5.0.3`
+### `@andrydharmawan/ajc/styled-engine-sc@5.0.3`
 
 - &#8203;<!-- 42 -->Don't allow styled-components APIs on mui styled function (#28807) @hbjORbj
 
-### `@mui/base@5.0.0-alpha.50`
+### `@andrydharmawan/ajc/base@5.0.0-alpha.50`
 
 - &#8203;<!-- 38 -->[ButtonUnstyled] Don't set redundant role=button (#28488) @michaldudak
 - &#8203;<!-- 43 -->[SliderUnstyled] Prevent unknown-prop error when using marks prop (#28868) @hbjORbj
 
-### `@mui/lab@5.0.0-alpha.50`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.50`
 
 - &#8203;<!-- 11 -->[pickers] Change view even if `onViewChange` is set (#28765) @eps1lon
 
-### `@mui/material-next@6.0.0-alpha.4`
+### `@andrydharmawan/ajc/material-next@6.0.0-alpha.4`
 
 - &#8203;<!-- 39 -->[Button-next] Create Button in material-next (#28313) @michaldudak
 
@@ -700,19 +700,19 @@ A big thanks to the 15 contributors who made this release possible. Here are som
 - 🔧 Improve `jss-to-styled` codemod to use new package names.
 - And many more 🐛 bug fixes and 📚 improvements.
 
-### `@mui/material@5.0.2`
+### `@andrydharmawan/ajc/material@5.0.2`
 
 - &#8203;<!-- 28 -->[Checkbox] Fix form submission with empty value (#28423) @garronej
 - &#8203;<!-- 08 -->[Slider] Don't error on minimal changes with readonly value (#28472) @eps1lon
 - &#8203;<!-- 07 -->[Switch] Fix style overrides on input (#28576) @praveenkumar-kalidass
 - &#8203;<!-- 03 -->[useMediaQuery] Add types for `matchMedia` option and deprecate exported interfaces (#28413) @eps1lon
 
-### `@mui/codemod@5.0.2`
+### `@andrydharmawan/ajc/codemod@5.0.2`
 
 - &#8203;<!-- 27 -->[codemod] Add MenuItem v.1.0.0 transform for primaryText property (#28640) @dmitry-yudakov
 - &#8203;<!-- 26 -->[codemod] Update the imports in `jss-to-styled` to match the new package names (#28667) @mnajdova
 
-### `@mui/system@5.0.2`
+### `@andrydharmawan/ajc/system@5.0.2`
 
 - &#8203;<!-- 06 -->[system] Fix types to support theme callbacks on pseudo and nested selectors (#28570) @mnajdova
 
@@ -757,16 +757,16 @@ A big thanks to the 14 contributors who made this release possible. Here are som
 - 📚 Improve the v4 to v5 migration guide.
 - And many more 🐛 bug fixes and 📚 improvements.
 
-### `@mui/material@5.0.1`
+### `@andrydharmawan/ajc/material@5.0.1`
 
 - &#8203;<!-- 18 -->[Radio] Fix support for number value type (#26772) @sakura90
 - &#8203;<!-- 12 -->[useMediaQuery] Reduce bundle size (#28412) @eps1lon
 
-### `@mui/codemod@5.0.1`
+### `@andrydharmawan/ajc/codemod@5.0.1`
 
 - &#8203;<!-- 43 -->[codemod] Cover edge case for theme-spacing #28400 @siriwatknp
 
-### `@mui/lab@5.0.0-alpha.48`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.48`
 
 - &#8203;<!-- 36 -->[DateTimePicker] Support `seconds` `view` (#25095) @breitembach
 - &#8203;<!-- 13 -->[TimePicker] Fire change event when meridiem changes (#26600) @coder-freestyle
@@ -811,7 +811,7 @@ A big thanks to the 14 contributors who made this release possible. Here are som
 - &#8203;<!-- 39 -->[core] Switch to webpack 5 (#28248) @eps1lon
 - &#8203;<!-- 38 -->[core] Batch small changes (#28177) @oliviertassinari
 - &#8203;<!-- 37 -->[core] Update publish tag to latest (#28382) @mnajdova
-- &#8203;<!-- 19 -->[framer] Update @mui/\* dependencies (#28469) @eps1lon
+- &#8203;<!-- 19 -->[framer] Update @andrydharmawan/ajc/\* dependencies (#28469) @eps1lon
 - &#8203;<!-- 17 -->[test] Add custom queries to `screen` (#28507) @eps1lon
 - &#8203;<!-- 16 -->[test] Run listChangedFiles against master (#28504) @eps1lon
 - &#8203;<!-- 15 -->[test] Increase BrowserStack timeout for Firefox (#28476) @oliviertassinari
@@ -838,22 +838,22 @@ A big thanks to the 600+ contributors who made the release possible!
 The 5.0.0 version includes all changes done in the alpha, beta, and rc releases listed below.
 These are the changes done from the last release candidate version (5.0.0-rc.1):
 
-### `@mui/material@5.0.0`
+### `@andrydharmawan/ajc/material@5.0.0`
 
 - &#8203;<!-- 15 -->[Autocomplete] Fix reset value on blur for freeSolo input (#28190) @praveenkumar-kalidass
 - &#8203;<!-- 14 -->[ButtonBase] Revert to the pre-unstyled implementation (#28225) @michaldudak
 - &#8203;<!-- 13 -->[Checkbox] Fix color proptype typo (#28265) @sydneyjodon-wk
 - &#8203;<!-- 40 -->[Tooltip] Ensure user-select CSS property is reverted after touch end (#28372) @tholman
 
-### `@mui/system@5.0.0`
+### `@andrydharmawan/ajc/system@5.0.0`
 
 - &#8203;<!-- 25 -->[system] Fix missing typings for createSpacing (#28361) @eps1lon
 
-### `@mui/codemod@5.0.0`
+### `@andrydharmawan/ajc/codemod@5.0.0`
 
 - &#8203;<!-- 21 -->[codemod] Fix jss-to-styled to support other export class, function etc. (#28321) @jedwards1211
 
-### `@mui/lab@5.0.0-alpha.46`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.46`
 
 - &#8203;<!-- 09 -->[DateTimePicker] Change bottom position of AM/PM buttons (#27534) @nikitabobers
 - &#8203;<!-- 02 -->[pickers] Add visual regression tests for open views (#28224) @eps1lon
@@ -910,7 +910,7 @@ A big thanks to the 13 contributors who made this release possible. Here are som
 - 📚 Improved the codemod and migration guide for upgrading to v5
 - 🐛 Fixed some bugs and regressions
 
-### `@mui/material@5.0.0-rc.1`
+### `@andrydharmawan/ajc/material@5.0.0-rc.1`
 
 - &#8203;<!-- 46 -->[Autocomplete] Fix virtualization regression (#28129) @oliviertassinari
 - &#8203;<!-- 45 -->[Button] Use deeper imports from unstyled, correct docs (#28074) @michaldudak
@@ -920,17 +920,17 @@ A big thanks to the 13 contributors who made this release possible. Here are som
 - &#8203;<!-- 10 -->[Select] Merge `ref` of `Select` and `input` element (#28054) @DouglasPds
 - &#8203;<!-- 07 -->[Tabs] Improve error message formatting for invalid `value` (#28172) @eps1lon
 
-### `@mui/system@5.0.0-rc.1`
+### `@andrydharmawan/ajc/system@5.0.0-rc.1`
 
 - &#8203;<!-- 47 -->[system] Change type of return value of overridesResolver (#28220) @hbjORbj
 - &#8203;<!-- 09 -->[system] Fix zero value condition (#28219) @siriwatknp
 - &#8203;<!-- 08 -->[system] Shorten class names in production (#27932) @oliviertassinari
 
-### `@mui/codemod@5.0.0-rc.1`
+### `@andrydharmawan/ajc/codemod@5.0.0-rc.1`
 
 - &#8203;<!-- 42 -->[codemod] Fix various reported issues on `preset-safe` (#28183) @mnajdova
 
-### `@mui/lab@5.0.0-alpha.46`
+### `@andrydharmawan/ajc/lab@5.0.0-alpha.46`
 
 - &#8203;<!-- 43 -->[ClockPicker] Fix to narrow hover area for am hours in am/pm clock (#28207) @eps1lon
 - &#8203;<!-- 13 -->[Masonry] Improve the styling on the demos (#27957) @hbjORbj
@@ -966,7 +966,7 @@ A big thanks to the 13 contributors who made this release possible. Here are som
 
 - &#8203;<!-- 41 -->[core] Misc bundle size tracking improvements (#28205) @eps1lon
 - &#8203;<!-- 40 -->[core] Ensure code preview is valid JavaScript (#28215) @eps1lon
-- &#8203;<!-- 39 -->[core] Create @mui/material-next package (#28200) @michaldudak
+- &#8203;<!-- 39 -->[core] Create @andrydharmawan/ajc/material-next package (#28200) @michaldudak
 - &#8203;<!-- 38 -->[core] Rename directories to match the new package names (#28185) @mnajdova
 - &#8203;<!-- 37 -->[core] Remove unused include (#28187) @eps1lon
 - &#8203;<!-- 36 -->[core] Fix PR detection mechanism for upstream PRs (#28171) @eps1lon
@@ -986,38 +986,38 @@ _Sep 1, 2021_
 
 A big thanks to the 18 contributors who made this release possible. Here are some highlights ✨:
 
-- 🎉 Renamed packages to `@mui/*` as part of rebranding the company, following the strategy of expanding the library scope beyond Material Design. For more details about it, check the [GitHub discussion](https://github.com/mui-org/material-ui/discussions/27803).
-- 🛠 Added `mui-replace` codemod for migrating `@material-ui/*` to new packages `@mui/*`. Check out this [codemod detail](https://github.com/mui-org/material-ui/blob/next/packages/mui-codemod/README.md#mui-replace) or head to [migration guide](https://mui.com/guides/migration-v4/#preset-safe)
+- 🎉 Renamed packages to `@andrydharmawan/ajc/*` as part of rebranding the company, following the strategy of expanding the library scope beyond Material Design. For more details about it, check the [GitHub discussion](https://github.com/mui-org/material-ui/discussions/27803).
+- 🛠 Added `mui-replace` codemod for migrating `@material-ui/*` to new packages `@andrydharmawan/ajc/*`. Check out this [codemod detail](https://github.com/mui-org/material-ui/blob/next/packages/mui-codemod/README.md#mui-replace) or head to [migration guide](https://mui.com/guides/migration-v4/#preset-safe)
 - 🧪 Added new `<Mansory>` component to the lab, [check it out](https://mui.com/components/masonry/). It has been crafted by our first intern, @hbjORbj 👏!
 
-### `@mui/material@5.0.0-rc.0`
+### `@andrydharmawan/ajc/material@5.0.0-rc.0`
 
 #### Breaking changes
 
 - &#8203;<!-- 33 -->[core] Rename packages (#28049) @mnajdova
 
-  replace `@material-ui/*` prefix with `@mui/*`:
+  replace `@material-ui/*` prefix with `@andrydharmawan/ajc/*`:
 
   ```
-  @material-ui/system -> @mui/system
-  @material-ui/styles -> @mui/styles
-  @material-ui/lab -> @mui/lab
-  @material-ui/types -> @mui/types
-  @material-ui/styled-engine -> @mui/styled-engine
-  @material-ui/styled-engine-sc ->@mui/styled-engine-sc
-  @material-ui/private-theming -> @mui/private-theming
-  @material-ui/codemod -> @mui/codemod
+  @material-ui/system -> @andrydharmawan/ajc/system
+  @material-ui/styles -> @andrydharmawan/ajc/styles
+  @material-ui/lab -> @andrydharmawan/ajc/lab
+  @material-ui/types -> @andrydharmawan/ajc/types
+  @material-ui/styled-engine -> @andrydharmawan/ajc/styled-engine
+  @material-ui/styled-engine-sc ->@andrydharmawan/ajc/styled-engine-sc
+  @material-ui/private-theming -> @andrydharmawan/ajc/private-theming
+  @material-ui/codemod -> @andrydharmawan/ajc/codemod
   ```
 
   except these 3 packages that are renamed.
 
   ```
-  @material-ui/core => @mui/material        // represents Material Design components.
-  @material-ui/icons => @mui/icons-material // represents Material Design icons.
-  @material-ui/unstyled => @mui/base        // fully functional components with minimum styles.
+  @material-ui/core => @andrydharmawan/ajc/material        // represents Material Design components.
+  @material-ui/icons => @andrydharmawan/ajc/icons-material // represents Material Design icons.
+  @material-ui/unstyled => @andrydharmawan/ajc/base        // fully functional components with minimum styles.
   ```
 
-  > **Note**: `@mui/base` (previously `@material-ui/unstyled`) is not the same as `@material-ui/core`.
+  > **Note**: `@andrydharmawan/ajc/base` (previously `@material-ui/unstyled`) is not the same as `@material-ui/core`.
 
   We encourage you to use the [codemod](https://github.com/mui-org/material-ui/blob/next/packages/mui-codemod/README.md#mui-replace) for smooth migration.
 
@@ -1032,15 +1032,15 @@ A big thanks to the 18 contributors who made this release possible. Here are som
 - &#8203;<!-- 05 -->[ToggleButtonGroup] Add "disabled" prop (#27998) @chetas411
 - &#8203;<!-- 34 -->[core] Export types for module augmentation (#28078) @m4theushw
 
-### `@mui/base@5.0.0-alpha.45`
+### `@andrydharmawan/ajc/base@5.0.0-alpha.45`
 
 - &#8203;<!-- 38 -->[Button] Create ButtonUnstyled and useButton (#27600) @michaldudak
 
-### `@mui/lab@5.0.0-rc.0`
+### `@andrydharmawan/ajc/lab@5.0.0-rc.0`
 
 - &#8203;<!-- 09 -->[Masonry] Add new component (#27439) @hbjORbj
 
-### `@mui/codemod@5.0.0-rc.0`
+### `@andrydharmawan/ajc/codemod@5.0.0-rc.0`
 
 - &#8203;<!-- 35 -->[codemod] Add `mui-replace` codemod transform (#28060) @siriwatknp
 

@@ -4,7 +4,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { unstable_useControlled as useControlled } from '@mui/utils';
+import { unstable_useControlled as useControlled } from '@andrydharmawan/ajc/utils';
 import FormControlUnstyledContext from './FormControlContext';
 import appendOwnerState from '../utils/appendOwnerState';
 import classes from './formControlUnstyledClasses';

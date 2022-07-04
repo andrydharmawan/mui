@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { OverrideProps } from '@mui/types';
+import { OverrideProps } from '@andrydharmawan/ajc/types';
 import { ButtonUnstyledOwnProps } from '../ButtonUnstyled';
 interface TabUnstyledComponentsPropsOverrides {
 }

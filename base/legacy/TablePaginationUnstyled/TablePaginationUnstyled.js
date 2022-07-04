@@ -3,7 +3,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { unstable_useId as useId, chainPropTypes, integerPropType } from '@mui/utils';
+import { unstable_useId as useId, chainPropTypes, integerPropType } from '@andrydharmawan/ajc/utils';
 import { appendOwnerState } from '../utils';
 import composeClasses from '../composeClasses';
 import isHostComponent from '../utils/isHostComponent';

@@ -2,7 +2,7 @@ import _extends from "@babel/runtime/helpers/esm/extends";
 import _objectWithoutPropertiesLoose from "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose";
 const _excluded = ["anchorEl", "children", "direction", "disablePortal", "modifiers", "open", "placement", "popperOptions", "popperRef", "TransitionProps"],
       _excluded2 = ["anchorEl", "children", "container", "direction", "disablePortal", "keepMounted", "modifiers", "open", "placement", "popperOptions", "popperRef", "style", "transition"];
-import { chainPropTypes, HTMLElementType, refType, unstable_ownerDocument as ownerDocument, unstable_useEnhancedEffect as useEnhancedEffect, unstable_useForkRef as useForkRef } from '@mui/utils';
+import { chainPropTypes, HTMLElementType, refType, unstable_ownerDocument as ownerDocument, unstable_useEnhancedEffect as useEnhancedEffect, unstable_useForkRef as useForkRef } from '@andrydharmawan/ajc/utils';
 import { createPopper } from '@popperjs/core';
 import PropTypes from 'prop-types';
 import * as React from 'react';

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { unstable_useControlled as useControlled, unstable_useId as useId } from '@mui/utils';
+import { unstable_useControlled as useControlled, unstable_useId as useId } from '@andrydharmawan/ajc/utils';
 
 const useTabs = props => {
   const {

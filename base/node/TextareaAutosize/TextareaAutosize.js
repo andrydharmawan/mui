@@ -15,7 +15,7 @@ var React = _interopRequireWildcard(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _utils = require("@mui/utils");
+var _utils = require("@andrydharmawan/ajc/utils");
 
 var _jsxRuntime = require("react/jsx-runtime");
 

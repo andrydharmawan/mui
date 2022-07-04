@@ -1,5 +1,5 @@
 import React from 'react';
-import { OverrideProps } from '@mui/types';
+import { OverrideProps } from '@andrydharmawan/ajc/types';
 interface TabPanelUnstyledComponentsPropsOverrides {
 }
 export interface TabPanelUnstyledOwnProps {

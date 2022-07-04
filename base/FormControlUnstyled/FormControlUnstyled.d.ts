@@ -1,4 +1,4 @@
-import { OverridableComponent } from '@mui/types';
+import { OverridableComponent } from '@andrydharmawan/ajc/types';
 import FormControlUnstyledProps, { FormControlUnstyledOwnProps, FormControlUnstyledTypeMap } from './FormControlUnstyledProps';
 declare type NonOptionalOwnerState = 'disabled' | 'error' | 'focused' | 'required';
 export declare type FormControlUnstyledOwnerState = Omit<FormControlUnstyledOwnProps, NonOptionalOwnerState> & Required<Pick<FormControlUnstyledProps, NonOptionalOwnerState>> & {

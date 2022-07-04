@@ -1,6 +1,6 @@
 import _extends from "@babel/runtime/helpers/esm/extends";
 import * as React from 'react';
-import { unstable_useControlled as useControlled, unstable_useForkRef as useForkRef, unstable_useIsFocusVisible as useIsFocusVisible } from '@mui/utils';
+import { unstable_useControlled as useControlled, unstable_useForkRef as useForkRef, unstable_useIsFocusVisible as useIsFocusVisible } from '@andrydharmawan/ajc/utils';
 
 /**
  * The basic building block for creating custom switches.

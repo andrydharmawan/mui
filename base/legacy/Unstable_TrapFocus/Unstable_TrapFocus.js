@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention, consistent-return, jsx-a11y/no-noninteractive-tabindex */
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { exactProp, elementAcceptingRef, unstable_useForkRef as useForkRef, unstable_ownerDocument as ownerDocument } from '@mui/utils'; // Inspired by https://github.com/focus-trap/tabbable
+import { exactProp, elementAcceptingRef, unstable_useForkRef as useForkRef, unstable_ownerDocument as ownerDocument } from '@andrydharmawan/ajc/utils'; // Inspired by https://github.com/focus-trap/tabbable
 
 import { jsx as _jsx } from "react/jsx-runtime";
 import { jsxs as _jsxs } from "react/jsx-runtime";
